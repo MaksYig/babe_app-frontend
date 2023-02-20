@@ -21,8 +21,13 @@ export const getUserInfo = (token) =>
   API.get(`api-auth-djoser/users/me/`, {
     headers: { Authorization: 'Token '.concat(token) },
   });
-export const getProfileInfo = (id) =>
-  API.get(`api/profiles/${id}/`, id, config);
+export const getProfileInfo = (id, token) =>
+  API.get(`api/profiles/${id}/`, {
+    headers: {
+      Authorization: 'Token '.concat(token),
+      'Content-Type': 'multipart/form-data',
+    },
+  });
 
 export const signin = (formData) =>
   API.post(`api-auth-djoser/token/login/`, formData, config);

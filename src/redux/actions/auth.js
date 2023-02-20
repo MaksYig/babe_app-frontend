@@ -22,10 +22,12 @@ export const login = (formData) => async (dispatch) => {
       console.log(res);
       dispatch({ type: USER_SIGNIN, payload: res.data });
       const info = await api.getUserInfo(res.data?.auth_token);
+      localStorage.setItem('auth_token', res?.data?.auth_token);
       if (info.status === 200) {
-        dispatch({ type: ISUSER, payload: info.data });
+        const token = await localStorage.getItem('auth_token');
+        dispatch({ type: ISUSER, payload: info?.data });
         console.log(info);
-        const prof = await api.getProfileInfo(info.data?.id);
+        const prof = await api.getProfileInfo(info?.data?.id, token);
         if (prof.status === 200) {
           dispatch({ type: USER_PROFILE, payload: prof.data });
           console.log(prof);
@@ -69,6 +71,7 @@ export const signup = (formData) => async (dispatch) => {
         dispatch({ type: USER_SIGNIN, payload: sign.data });
         console.log(res);
         const info = await api.getUserInfo(sign.data?.auth_token);
+        localStorage.setItem('auth_token', sign.data?.auth_token);
         if (info.status === 200) {
           dispatch({ type: ISUSER, payload: info.data });
           console.log(info);
@@ -108,11 +111,13 @@ export const updateMe = (id, formData, token) => async (dispatch) => {
   }
 };
 
-export const signout = (token) => async (dispatch) => {
+export const signout = () => async (dispatch) => {
   try {
+    const token = localStorage.getItem('auth_token');
     const res = await api.logout(token);
     console.log(res);
     if (res.status === 204) {
+      localStorage.removeItem('auth_token');
       dispatch({ type: SIGN_OUT, payload: res.data });
       console.log(res);
     }

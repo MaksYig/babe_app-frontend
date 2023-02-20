@@ -273,7 +273,7 @@ export default function AddpetDialog({ pet }) {
                         multiline
                         onChange={handleChange}
                         rows={4}
-                        defaultValue={formData?.pet_desc}
+                        defaultValue={formData?.pet_disc}
                         variant='filled'
                       />
                     </Grid>
@@ -392,7 +392,9 @@ export default function AddpetDialog({ pet }) {
                     display='flex'
                     justifyContent={'center'}
                   >
-                    <Button onClick={handleSubmit}>UPDATE GENERAL INFO</Button>
+                    <Button color='success' onClick={handleSubmit}>
+                      UPDATE GENERAL INFO
+                    </Button>
                   </Grid>
                 </Grid>
               </AccordionDetails>
