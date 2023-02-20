@@ -1,0 +1,518 @@
+[
+  {
+    "dog_breed": "Affenpinscher  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_f60548fa-f63b-4c8c-9a42-5ea59ae17a30.jpg"
+  },
+  {
+    "dog_breed": "Afghan Hound ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_f6f29937-90e7-4031-a0bf-2d2e7477e599_1604581830962.png"
+  },
+  {
+    "dog_breed": "Airedale Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_3205cd38-f754-441e-8d55-99ced8857e42.jpg"
+  },
+  {
+    "dog_breed": "Akita  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_dec059df-81ce-4a07-8f00-3c1eefeea1bf.jpg"
+  },
+  {
+    "dog_breed": "Alaskan Malamute  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_a6b9635e-1a6f-4b6f-ad0f-60643d576aaf.jpg"
+  },
+  {
+    "dog_breed": "American Cocker Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_6fe6796b-f2e3-4221-8f22-194eb0afc348_0.jpg"
+  },
+  {
+    "dog_breed": "Australian Cattle  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_ca117c3d-aeb4-4d40-b026-5ed79b6d9a3d.jpg"
+  },
+  {
+    "dog_breed": "Australian Kelpie  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_d42bc4d3-e05f-4d51-ba70-3d4171f57d00.jpg"
+  },
+  {
+    "dog_breed": "Australian Shepherd  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_d946ccef-7ac8-4728-a6d6-fc901710363e.jpg"
+  },
+  {
+    "dog_breed": "Australian Silky Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_7245dc10-eb13-406d-bc48-b120ffd5aa37.jpg"
+  },
+  {
+    "dog_breed": "Australian Stumpy Tail Cattle  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_8f65857b-8354-4057-91de-4028ab152bcf.jpg"
+  },
+  {
+    "dog_breed": "Australian Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_c79625b1-efbb-4f1d-930d-19d6ced3776f.jpg"
+  },
+  {
+    "dog_breed": "Basenji  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_eff2a914-3c6a-44c7-b4de-22c463bc43c3.jpg"
+  },
+  {
+    "dog_breed": "Basset Fauve De Bretagne  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_dc183a82-2914-4d80-b80c-70f748ba24ee.jpg"
+  },
+  {
+    "dog_breed": "Basset Hound  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_e0a560ae-6d27-4114-92f5-4b11d38020ab.jpg"
+  },
+  {
+    "dog_breed": "Beagle  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_761dab6c-8f32-4c30-8179-34b9d785b3a7.jpg"
+  },
+  {
+    "dog_breed": "Bearded Collie  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_31e0a11d-64a5-4422-bc6f-994273d7d926.jpg"
+  },
+  {
+    "dog_breed": "Bedlington Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_105783ca-6b33-49d1-a637-9650e059b1db.jpg"
+  },
+  {
+    "dog_breed": "Belgian Shepherd  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_d6e48369-7e26-4176-a123-2658d6e8bd90.jpg"
+  },
+  {
+    "dog_breed": "Bernese Mountain   Information",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_0280aafe-90b1-4db6-b7d1-4caad4b538f4.jpg"
+  },
+  {
+    "dog_breed": "Bichon Frise  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_6f31ed94-1b3f-48ff-a760-26cda23d1ec5.jpg"
+  },
+  {
+    "dog_breed": "Bloodhound  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_174dc774-fe5c-49cb-8fc1-10b57c58897f.jpg"
+  },
+  {
+    "dog_breed": "Border Collie  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_25a5e3fe-9242-438b-a73a-8bad3ee5ea8a.jpg"
+  },
+  {
+    "dog_breed": "Border Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_4824571d-da73-4eab-bd59-2629da667b04.jpg"
+  },
+  {
+    "dog_breed": "Borzoi  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_5a98e1e5-aae5-4a3f-bbf8-b9b450ddc8eb.jpg"
+  },
+  {
+    "dog_breed": "Boston Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_fe98f102-4e81-4b5d-9c73-3f8cbbe2e9ba.jpg"
+  },
+  {
+    "dog_breed": "Bouvier Des Flandres  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_58c01235-0cdc-4478-824b-1f72ef7ea8a9.jpg"
+  },
+  {
+    "dog_breed": "Boxer  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_ae3ed235-a933-4d13-8cc8-0659f8354f74.jpg"
+  },
+  {
+    "dog_breed": "Briard  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_f5d5ea44-5c4a-45aa-ab83-b9691daaddaf.jpg"
+  },
+  {
+    "dog_breed": "British Bulldog ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_b8ebfa12-7d5f-40e6-9260-1b906c7edb66.jpg"
+  },
+  {
+    "dog_breed": "Brittany  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/Brittany.jpg"
+  },
+  {
+    "dog_breed": "Bull Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_4efbc67a-c60e-4225-b754-bc86e15a8672.jpg"
+  },
+  {
+    "dog_breed": "Bullmastiff  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_47ae1fa2-8ddc-417f-ba56-7a4d4f7a0ea4.jpg"
+  },
+  {
+    "dog_breed": "Cairn Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_bc77c846-9372-4f83-a0ea-bb0b7f7cff1d.jpg"
+  },
+  {
+    "dog_breed": "Cavalier King Charles Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_ecb7588e-cde2-447d-be2c-d60b9067dfc8.jpg"
+  },
+  {
+    "dog_breed": "Chesapeake Bay Retriever  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_d02c3dd6-d514-4509-8ddc-125979cd03ea.jpg"
+  },
+  {
+    "dog_breed": "Chihuahua  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_e6bfdad9-6951-407b-a11f-bbd0c25bd796.jpg"
+  },
+  {
+    "dog_breed": "Chinese Crested  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_a86cbb82-38d5-4701-b32e-5f2d403d4ea3.jpg"
+  },
+  {
+    "dog_breed": "Chow Chow   Information",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_376a9f86-1dc2-4f59-982a-50051be617d7.jpg"
+  },
+  {
+    "dog_breed": "Clumber Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_c9cb8474-54f6-4e3f-810c-85063fbd23e9.jpg"
+  },
+  {
+    "dog_breed": "Cocker Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_c49436f1-601f-471f-be4c-3045da696cc5.jpg"
+  },
+  {
+    "dog_breed": "Collie  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_5a8d4d9f-b753-4184-9825-9df958c84375.jpg"
+  },
+  {
+    "dog_breed": "Curly Coated Retriever  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_6b6eb370-b5dc-49f3-9e96-5e432817df3c.jpg"
+  },
+  {
+    "dog_breed": "Dachshund  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_119eaf52-25aa-4aa5-af03-48ece637bf15.jpg"
+  },
+  {
+    "dog_breed": "Dalmatian  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_6ebc1111-e751-4ada-8b23-cf333b03c447.jpg"
+  },
+  {
+    "dog_breed": "Dandie Dinmont Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_70d6ccac-b1a8-4b46-8cf5-9dd8e3acdafe.jpg"
+  },
+  {
+    "dog_breed": "Deerhound  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_1f769c7e-a91b-4c61-a352-fd4a8c0d1089.jpg"
+  },
+  {
+    "dog_breed": "Dobermann  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_93f0005b-08c6-40f4-adce-c3c5dd2b8139.jpg"
+  },
+  {
+    "dog_breed": "Dogue De Bordeaux  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_59e7fd3b-a3eb-482e-a2bb-f9e620a789a7.jpg"
+  },
+  {
+    "dog_breed": "English Setter  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_7eae5f52-2162-4697-a8a8-ea8a01bab086.jpg"
+  },
+  {
+    "dog_breed": "English Springer Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_1916fefc-2bc2-489f-a9c0-66c6be772798.jpg"
+  },
+  {
+    "dog_breed": "English Toy Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_b72844ff-55f3-4559-b2c0-8d6e9784c424.jpg"
+  },
+  {
+    "dog_breed": "Field Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_37ee73fc-65bd-4f9d-846a-073b868c8a28.jpg"
+  },
+  {
+    "dog_breed": "Finnish Spitz  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_adc4247a-3cd1-4d3d-ac49-4411753dc9b9.jpg"
+  },
+  {
+    "dog_breed": "Flat Coated Retriever  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_f5693a4f-9a88-4d4c-8f53-e31c413c1a74.jpg"
+  },
+  {
+    "dog_breed": "Fox Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_fe273d72-6c0d-47b5-8faa-f2450100acd9.jpg"
+  },
+  {
+    "dog_breed": "Foxhound  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_c52f34d4-859f-480b-abef-458d3b51b520.jpg"
+  },
+  {
+    "dog_breed": "French Bulldog ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_7baa8b74-afc3-47de-b430-17938c62d82f.jpg"
+  },
+  {
+    "dog_breed": "German Shepherd  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_4545e598-ce40-4bf9-bfa0-b5f1674cd57b.jpg"
+  },
+  {
+    "dog_breed": "German Short-Haired Pointer  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_82d7b099-673f-4868-9736-2ea1f238556e.jpg"
+  },
+  {
+    "dog_breed": "German Wirehaired Pointer  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_cf60c787-60b9-415d-a3b6-c2e7cf53744e.jpg"
+  },
+  {
+    "dog_breed": "Golden Retriever   Information",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_afc2fa4a-40a7-4e3d-bb2c-d605117ed0bd.jpg"
+  },
+  {
+    "dog_breed": "Gordon Setter  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_782a5bb3-8285-40ef-8a18-0ba63b61d20c.jpg"
+  },
+  {
+    "dog_breed": "Great Dane  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_238b540f-a92d-4fd7-bbac-8bf3c5bb0262.jpg"
+  },
+  {
+    "dog_breed": "Greyhound  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_1483084d-310e-4f15-9af4-abce7e4cf797.jpg"
+  },
+  {
+    "dog_breed": "Griffon Bruxellois  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_27df8736-cede-45f9-9c5e-56b63f81cc3e.jpg"
+  },
+  {
+    "dog_breed": "Hungarian Vizsla  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_369732bc-362c-47da-9e79-0dd624eb4fcc.jpg"
+  },
+  {
+    "dog_breed": "Irish Setter  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_44c702cb-7c20-4b6c-a17f-5f2b309067bc.jpg"
+  },
+  {
+    "dog_breed": "Irish Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_0012d555-72d9-46c9-8fe7-ea118b5bd6cb.jpg"
+  },
+  {
+    "dog_breed": "Irish Water Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_737b3d90-7c6a-40ca-9939-48e885e3380d.jpg"
+  },
+  {
+    "dog_breed": "Irish Wolfhound  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_f4f1dc2f-fa71-454a-95d9-99e9d4f85473.jpg"
+  },
+  {
+    "dog_breed": "Italian Greyhound   Information",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_daf769e0-69ed-43db-ae76-c1e6a834832d.jpg"
+  },
+  {
+    "dog_breed": "Jack Russell  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_4b7d28f8-f5aa-4667-bbb5-61e002be27ef.jpg"
+  },
+  {
+    "dog_breed": "Japanese Akita  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_dec059df-81ce-4a07-8f00-3c1eefeea1bf_0.jpg"
+  },
+  {
+    "dog_breed": "Japanese Chin  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_7726b321-06b0-4bf8-a42d-070dfcf21b73.jpg"
+  },
+  {
+    "dog_breed": "Japanese Spitz   Information",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_8aaf32f5-1c4c-4788-ad60-13da0170281e.jpg"
+  },
+  {
+    "dog_breed": "Keeshond  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_7a3a79f5-2ed7-4384-9bb8-b70f406848ea.jpg"
+  },
+  {
+    "dog_breed": "King Charles Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_d84d1579-3627-40af-80b9-bbc253077fde.jpg"
+  },
+  {
+    "dog_breed": "Labrador  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_86eb9121-aaf1-426c-a367-b61574b81163.jpg"
+  },
+  {
+    "dog_breed": "Lakeland Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_ee330aec-de16-4a33-8abe-adc7f7fb37ff.jpg"
+  },
+  {
+    "dog_breed": "Lhasa Apso  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_04bb3af9-9e1a-4ec3-a793-a39522fcb99d.jpg"
+  },
+  {
+    "dog_breed": "Lowchen  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_0e22d0d6-5213-4d6f-974f-d7c31940605c.jpg"
+  },
+  {
+    "dog_breed": "Maltese  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_491f81c2-a286-4d2a-b736-b00d44ebde92.jpg"
+  },
+  {
+    "dog_breed": "Maremma Sheepdog  Information",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_b137c32e-8a4d-4ce7-aec4-a7d94394baf9.jpg"
+  },
+  {
+    "dog_breed": "Mastiff  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_6fe6796b-f2e3-4221-8f22-194eb0afc348.jpg"
+  },
+  {
+    "dog_breed": "Miniature Pinscher  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_06bd86c4-a26a-4aab-a4cf-3467d87503bd.jpg"
+  },
+  {
+    "dog_breed": "Munsterlander  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_0b7e8449-ae70-45a1-b75c-7753333a385b.jpg"
+  },
+  {
+    "dog_breed": "Newfoundland  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_2c6484e5-9ca6-4558-8efb-fb47e73e7f0a.jpg"
+  },
+  {
+    "dog_breed": "Norfolk Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_ff1edee9-15e3-46f5-93ae-505a1a751a87.jpg"
+  },
+  {
+    "dog_breed": "Norwich Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_d9421cdb-db0e-46b9-93a1-a406b7b55d88.jpg"
+  },
+  {
+    "dog_breed": "Nova Scotia Duck Tolling Retriever  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_598d80ba-6cd1-4ece-86a5-fab6c0930dd5.jpg"
+  },
+  {
+    "dog_breed": "Old English Sheep  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_4b952a28-8e3f-4c30-a43a-b8a4dde44588.png"
+  },
+  {
+    "dog_breed": "Papillon  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_220c62cc-115a-4f19-aadd-d123e0c8dc7e.jpg"
+  },
+  {
+    "dog_breed": "Pekingese  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_58a64dc7-0989-4cae-8698-1f97d32bb531.jpg"
+  },
+  {
+    "dog_breed": "Petit Basset Griffon Vendéen  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_9ffbbcef-61e8-4f5d-8f4c-48c8bf587b53.jpg"
+  },
+  {
+    "dog_breed": "Pharaoh Hound  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_a4864c94-64a0-4776-b4dd-f280d313fccd.jpg"
+  },
+  {
+    "dog_breed": "Pointer  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_5aee3a6d-c2ed-40de-b524-ad0435c27cc6.jpg"
+  },
+  {
+    "dog_breed": "Pomeranian  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_25e5e55d-289e-48cf-8828-d57801810290.jpg"
+  },
+  {
+    "dog_breed": "Poodle  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_993c14fa-52e4-4491-a5cf-bfd85ea89508.jpg"
+  },
+  {
+    "dog_breed": "Portuguese Water  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_e6873ff0-fc49-405b-a741-8066318d79c5.jpg"
+  },
+  {
+    "dog_breed": "Pug  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_d0214ff3-7c4a-4d27-9948-468b6e97b2cc.jpg"
+  },
+  {
+    "dog_breed": "Puli  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_a415cb65-8172-4547-99b9-749b29baf16b.jpg"
+  },
+  {
+    "dog_breed": "Pyrenean Mountain  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_a8cbec53-5332-46b6-9cbc-81562dc1c65d.jpg"
+  },
+  {
+    "dog_breed": "Rhodesian Ridgeback  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_f222a7ae-972a-4379-adf9-ebef28ab253d.jpg"
+  },
+  {
+    "dog_breed": "Rottweiler  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_0f7ae0f5-2af3-414b-a7ff-bf38fa68dd24.jpg"
+  },
+  {
+    "dog_breed": "Saint Bernard  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_4a5a719e-1ed6-4b62-af67-5d8dfcf6b588.jpg"
+  },
+  {
+    "dog_breed": "Saluki  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/Saluki.jpg"
+  },
+  {
+    "dog_breed": "Samoyed  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_b921df58-3fb7-4e38-9678-7302fa1dc4d0.jpg"
+  },
+  {
+    "dog_breed": "Schipperke  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_62fd5c50-8c66-44ef-8c56-3bfbe45a5b66.jpg"
+  },
+  {
+    "dog_breed": "Schnauzer  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_5878dd85-86d0-4aa6-b3c8-0dd8f3f76ed9%20%281%29.jpg"
+  },
+  {
+    "dog_breed": "Scottish Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_ec9fcbb9-ac6e-4110-8735-d428fe921357.jpg"
+  },
+  {
+    "dog_breed": "Sealyham Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_4e6328e4-d56f-4e54-aaa7-880460797ed3.jpg"
+  },
+  {
+    "dog_breed": "Shar-Pei  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_8fba6d99-ffed-4a75-97ab-eae5228daf08.jpg"
+  },
+  {
+    "dog_breed": "Shetland Sheep  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_1c7579fe-2d07-4b40-8def-dd1e3ac26aa3.jpg"
+  },
+  {
+    "dog_breed": "Shih Tzu   Information",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_24321280-e141-4ae6-831c-a916cd6a4fbb.jpg"
+  },
+  {
+    "dog_breed": "Siberian Husky  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_3c2c3c1d-36f3-4802-8be1-23efc665588c.jpg"
+  },
+  {
+    "dog_breed": "Skye Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_af3bcf9e-4080-42ad-b125-e343089865fd.jpg"
+  },
+  {
+    "dog_breed": "Soft Coated Wheaten Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/Soft-Coated.jpg"
+  },
+  {
+    "dog_breed": "Staffordshire Bull Terrier   Information",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_c67cb27c-66e3-41eb-a5af-89c0a96c45a4.jpg"
+  },
+  {
+    "dog_breed": "Sussex Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_sussex-spaniel-636885079040502059.jpg"
+  },
+  {
+    "dog_breed": "Swedish Vallhund  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_c9456998-831a-4afd-bad5-d30a992aeba4.jpg"
+  },
+  {
+    "dog_breed": "Tibetan Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_afdd4dc8-03d8-48d3-8224-5755733f927b.jpg"
+  },
+  {
+    "dog_breed": "Tibetan Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_9adb0c6a-1437-4f7c-a33a-6a46712e2595.jpg"
+  },
+  {
+    "dog_breed": "Weimaraner  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_f816c9e9-46df-4c04-a262-3337b0c9aae9.jpg"
+  },
+  {
+    "dog_breed": "Welsh Corgi  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_5aa927ad-7fa1-4648-adf7-06c251bc9e29.jpg"
+  },
+  {
+    "dog_breed": "Welsh Springer Spaniel  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_5b89b430-48e9-42a2-a208-790d15c326be.jpg"
+  },
+  {
+    "dog_breed": "West Highland White Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_963cc213-2401-40d5-8add-aa8b9ae4d92c.jpg"
+  },
+  {
+    "dog_breed": "Whippet  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_42feb29a-da3c-459e-86ae-8fc79e7c723a.jpg"
+  },
+  {
+    "dog_breed": "Yorkshire Terrier  ",
+    "dog_breed_img": "https://www.pedigree.com.ph//cdn-cgi/image/format=auto,q=90/sites/g/files/fnmzdf2646/files/2022-03/large_071e4e2f-e631-4f03-802f-a09797dc9e40.jpg"
+  }
+]
