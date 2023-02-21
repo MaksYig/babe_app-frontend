@@ -7,7 +7,7 @@ import AvatarGroup from '@mui/material/AvatarGroup';
 import Typography from '@mui/material/Typography';
 import { useSelector } from 'react-redux';
 import PetLine from '../../components/PetLine/PetLine';
-import Map from '../../components/Map/Map';
+import MapComponent from '../../components/Map/Map';
 import AddPet from '../../components/Dialogs/AddPet/AddPet';
 
 const UserPage = () => {
@@ -66,7 +66,7 @@ const UserPage = () => {
           })}
         </Grid>
         <Grid item xs={12} md={6}>
-          <Map arr={usersData?.profile?.owner_pets} />
+          <MapComponent arr={usersData?.profile?.owner_pets} />
         </Grid>
       </Grid>
     </Grid>

@@ -253,11 +253,16 @@ const InfoPage = () => {
             </Grid>
           </Grid>
         </CardContent>
-        <CardActions>
+        <CardActions></CardActions>
+      </Card>
+      <Grid container>
+        <Grid item xs={7} md={4}>
           <Button size='small'>Print</Button>
           <Button size='small' onClick={generatePDF}>
-            Save
+            Save PDF
           </Button>
+        </Grid>
+        <Grid item xs={5} md={4}>
           <Button
             color='secondary'
             size='small'
@@ -265,8 +270,8 @@ const InfoPage = () => {
           >
             Go BACK
           </Button>
-        </CardActions>
-      </Card>
+        </Grid>
+      </Grid>
     </Grid>
   );
 };

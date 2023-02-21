@@ -15,7 +15,7 @@ const HomePage = () => {
       display={'flex'}
       justifyContent={'center'}
       alignItems={'center'}
-      height={'90vh'}
+      height={'91vh'}
     >
       <Card sx={{ maxWidth: 400 }}>
         <CardContent>
