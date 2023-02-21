@@ -29,6 +29,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import QrAccordion from '../../QrAccordion/QrAccordion';
 
 export default function AddpetDialog({ pet }) {
   const usersData = useSelector((state) => state.auth);
@@ -51,8 +52,12 @@ export default function AddpetDialog({ pet }) {
     setPic(null);
   }, [open]);
 
-  console.log(formData);
-
+  const qrHandle = (newValue) => {
+    const qrData = new FormData();
+    qrData.append('qr_code_img', newValue);
+    console.log(qrData);
+    /*     dispatch(updatePet(pet.id, qrData)); */
+  };
   const handleValueChange = (newValue) => {
     setFormData({ ...formData, pet_breed: newValue });
   };
@@ -78,9 +83,9 @@ export default function AddpetDialog({ pet }) {
         fileData.append('pet_image3', pic.pet_image3, pic.pet_image3.name);
       }
       console.log(`FileData: ${fileData}`);
-      dispatch(updatePet(pet.id, fileData, usersData?.token));
+      dispatch(updatePet(pet.id, fileData));
     }
-    dispatch(updatePet(pet.id, formData, usersData?.token));
+    dispatch(updatePet(pet.id, formData));
     setExpanded(false);
     setFormData(null);
   };
@@ -183,7 +188,7 @@ export default function AddpetDialog({ pet }) {
                         views={['year', 'month', 'day']}
                         value={formData?.dob}
                         onChange={(newValue) => {
-                          setFormData({ ...formData, dob: newValue });
+                          setFormData({ ...formData, dob: newValue.$d });
                         }}
                         renderInput={(params) => (
                           <TextField
@@ -564,6 +569,14 @@ export default function AddpetDialog({ pet }) {
                 </Grid>
               </AccordionDetails>
             </Accordion>
+            <QrAccordion
+              handleChangeAcc={handleChangeAcc}
+              expanded={expanded}
+              panel={'panel3'}
+              qr_value={`http://127.0.0.1:3000/info_page/${pet?.id}/`}
+              title='QR Code Generator'
+              name={pet.name}
+            />
           </DialogContent>
           <DialogActions>
             <Button onClick={handleClose}>Close</Button>

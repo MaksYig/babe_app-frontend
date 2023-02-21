@@ -17,6 +17,7 @@ import { useSelector } from 'react-redux';
 import dog_breed from './../../../static/assets/data/dogs_breeds.json';
 import DogBreed from '../DogBreed/DogBreed';
 import { setAlert } from '../../../redux/actions/alert';
+import moment from 'moment';
 
 export default function AddpetDialog(props) {
   const usersData = useSelector((state) => state.auth);
@@ -28,7 +29,6 @@ export default function AddpetDialog(props) {
   const handleValueChange = (newValue) => {
     setFormData({ ...formData, pet_breed: newValue });
   };
-
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
@@ -95,7 +95,10 @@ export default function AddpetDialog(props) {
                     views={['year', 'month', 'day']}
                     value={formData?.dob}
                     onChange={(newValue) => {
-                      setFormData({ ...formData, dob: newValue });
+                      setFormData({
+                        ...formData,
+                        dob: newValue.$d,
+                      });
                     }}
                     renderInput={(params) => (
                       <TextField

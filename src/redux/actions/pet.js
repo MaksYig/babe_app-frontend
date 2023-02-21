@@ -14,7 +14,8 @@ import { setAlert } from './alert';
 
 export const createPet = (formData) => async (dispatch) => {
   try {
-    const res = await api.createPet(formData);
+    const token = localStorage.getItem('auth_token');
+    const res = await api.createPet(formData, token);
     if (res.status === 201) {
       dispatch({ type: CREATE_PET, payload: res.data });
     }
@@ -27,16 +28,17 @@ export const createPet = (formData) => async (dispatch) => {
     if (error) {
       dispatch(setAlert(error.message, 'error'));
     }
-    console.log(err);
+    console.log(error);
   }
 };
 
-export const updatePet = (id, formData, token) => async (dispatch) => {
+export const updatePet = (id, formData) => async (dispatch) => {
   try {
+    const token = localStorage.getItem('auth_token');
     const res = await api.updatePet(id, formData, token);
     console.log(res);
     if (res.status === 200) {
-      const profile = await api.getProfileInfo(res.data.data.owner);
+      const profile = await api.getProfileInfo(res.data.data.owner, token);
       if (profile.status === 200) {
         dispatch({ type: USER_PROFILE, payload: profile.data });
         dispatch(setAlert(res.data.message, 'success'));
@@ -53,17 +55,23 @@ export const getPetInfo = (id) => async (dispatch) => {
     if (res.status === 200) {
       console.log(res);
       dispatch({ type: GET_PET_INFO, payload: res.data.data });
-      dispatch(setAlert(res.data.message, 'success'));
     }
   } catch (err) {}
 };
 
 export const deletPet = (id) => async (dispatch) => {
   try {
-    const res = await api.deletePet(id);
+    const token = localStorage.getItem('auth_token');
+    const res = await api.deletePet(id, token);
     if (res.status === 200) {
       console.log(res.data);
       dispatch({ type: DELETE_PET, payload: res.data });
+      dispatch(setAlert(res.data.message, 'success'));
+      const profile = await api.getProfileInfo(res.data.data.owner, token);
+      if (profile.status === 200) {
+        dispatch({ type: USER_PROFILE, payload: profile.data });
+        dispatch(setAlert(res.data.message, 'success'));
+      }
     }
     console.log(res);
   } catch (error) {

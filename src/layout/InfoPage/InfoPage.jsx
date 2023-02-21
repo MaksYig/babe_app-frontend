@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import JsPDF from 'jspdf';
 import dayjs from 'dayjs';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -20,6 +21,14 @@ const InfoPage = () => {
   const dispatch = useDispatch();
   const petData = useSelector((state) => state?.pet);
   const { pet_id } = location.state;
+
+  const generatePDF = () => {
+    const report = new JsPDF('landscape', 'pt', 'a5');
+    report.html(document.querySelector('#info')).then(() => {
+      report.save(`${petData?.pet_info?.name}-info.pdf`);
+    });
+  };
+
   useEffect(() => {
     dispatch(getPetInfo(pet_id));
   }, []);
@@ -31,7 +40,7 @@ const InfoPage = () => {
       alignItems={'center'}
       height={'90vh'}
     >
-      <Card sx={{ maxWidth: 700 }} elevation={3}>
+      <Card sx={{ maxWidth: 700 }} elevation={3} id='info'>
         <Grid
           container
           spacing={1}
@@ -246,7 +255,9 @@ const InfoPage = () => {
         </CardContent>
         <CardActions>
           <Button size='small'>Print</Button>
-          <Button size='small'>Save</Button>
+          <Button size='small' onClick={generatePDF}>
+            Save
+          </Button>
           <Button
             color='secondary'
             size='small'

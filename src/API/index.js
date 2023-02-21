@@ -35,8 +35,13 @@ export const signin = (formData) =>
 export const signup = (formData) =>
   API.post(`api-auth-djoser/users/`, formData, config);
 
-export const createPet = (formData) =>
-  API.post('api/listings/create/', formData, config);
+export const createPet = (formData, token) =>
+  API.post('api/listings/create/', formData, {
+    headers: {
+      Authorization: 'Token '.concat(token),
+      'Content-Type': 'multipart/form-data',
+    },
+  });
 
 export const updatePet = (id, formData, token) =>
   API.patch(`api/listings/update/${id}/`, formData, {
@@ -50,8 +55,10 @@ export const logout = (token) =>
   API.post(`api-auth-djoser/token/logout/`, token, {
     headers: { Authorization: 'Token '.concat(token) },
   });
-export const deletePet = (id) =>
-  API.delete(`api/listings/delete/${id}/`, config);
+export const deletePet = (id, token) =>
+  API.delete(`api/listings/delete/${id}/`, {
+    headers: { Authorization: 'Token '.concat(token) },
+  });
 
 export const updateMe = (id, formData, token) =>
   API.patch(`api/user/profile/${id}/`, formData, {
