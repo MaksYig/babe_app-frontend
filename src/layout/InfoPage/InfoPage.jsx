@@ -15,6 +15,14 @@ import { useNavigate } from 'react-router-dom';
 import { getPetInfo } from '../../redux/actions/pet';
 import { useDispatch, useSelector } from 'react-redux';
 
+function calAge(date) {
+  const newDate = moment(date).format('YYYY-MM-DD');
+  const diff = moment().diff(newDate, 'milliseconds');
+  const duration = moment.duration(diff);
+  const age = `Y: ${duration._data.years} - M: ${duration._data.months} - D: ${duration._data.days}`;
+  return age;
+}
+
 const InfoPage = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -23,7 +31,14 @@ const InfoPage = () => {
   const { pet_id } = location.state;
 
   const generatePDF = () => {
-    const report = new JsPDF('landscape', 'pt', 'a5');
+    const report = new JsPDF(
+      {
+        orientation: 'landscape',
+        unit: 'pt',
+        format: 'a4',
+      },
+      { align: 'center' }
+    );
     report.html(document.querySelector('#info')).then(() => {
       report.save(`${petData?.pet_info?.name}-info.pdf`);
     });
@@ -163,8 +178,8 @@ const InfoPage = () => {
                 >
                   Pet Age:
                 </Typography>
-                <Typography variant='h6' gutterBottom component='span'>
-                  {moment().diff([petData?.pet_info?.dob], 'years', false)}
+                <Typography variant='subtitle1' gutterBottom component='span'>
+                  {calAge(petData?.pet_info?.dob)}
                 </Typography>
               </Grid>
             </Grid>
@@ -201,53 +216,53 @@ const InfoPage = () => {
           >
             <Grid item sx={12} md={6}>
               <Typography
-                variant='subtitle2'
+                variant='caption'
                 gutterBottom
                 component='span'
                 style={{ marginRight: '10px' }}
               >
                 Owner Name:
               </Typography>
-              <Typography variant='h6' gutterBottom component='span'>
+              <Typography variant='subtitle1' gutterBottom component='span'>
                 {`${petData?.pet_info?.owner?.f_name} ${petData?.pet_info?.owner?.l_name}`}
               </Typography>
             </Grid>
             <Grid item sx={12} md={6}>
               <Typography
-                variant='subtitle2'
+                variant='caption'
                 gutterBottom
                 component='span'
                 style={{ marginRight: '10px' }}
               >
                 Owner Country:
               </Typography>
-              <Typography variant='h6' gutterBottom component='span'>
+              <Typography variant='subtitle1' gutterBottom component='span'>
                 {petData?.pet_info?.owner?.country}
               </Typography>
             </Grid>
             <Grid item sx={12} md={6}>
               <Typography
-                variant='subtitle2'
+                variant='caption'
                 gutterBottom
                 component='span'
                 style={{ marginRight: '10px' }}
               >
                 Owner Phone:
               </Typography>
-              <Typography variant='h6' gutterBottom component='span'>
+              <Typography variant='subtitle1' gutterBottom component='span'>
                 {petData?.pet_info?.owner?.phone}
               </Typography>
             </Grid>
             <Grid item sx={12} md={6}>
               <Typography
-                variant='subtitle2'
+                variant='caption'
                 gutterBottom
                 component='span'
                 style={{ marginRight: '10px' }}
               >
                 Owner City:
               </Typography>
-              <Typography variant='h6' gutterBottom component='span'>
+              <Typography variant='subtitle1' gutterBottom component='span'>
                 {petData?.pet_info?.owner?.city}
               </Typography>
             </Grid>
