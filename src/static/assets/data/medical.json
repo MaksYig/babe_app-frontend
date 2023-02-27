@@ -1,0 +1,46 @@
+{
+  "Vaccinations": [
+    {
+      "name": "Distemper",
+      "description": "Signs can be severe and can involve several body systems. Widespread vaccination is very effective at keeping this disease at a low level, however the disease can circulate in wildlife reservoirs and be spread from dogs coming to the UK from abroad.A number of recent cases have been identified in the UK demonstrating that there is a need for high rates of vaccination to be maintained amongst pet dogs to counter the risk of disease resurgence.",
+      "symptoms": "These will often be primary signs that an infected dog displays. Pneumonia and a range of nervous signs such as muscle twitching and seizures are likely complications.The dog will have a high fever and is likely to show a marked loss of appetite, vomiting, and diarrhoea.In the later stages of the disease, dogs might develop thickened, cracked and painful footpads and the nose.",
+      "duration_adult": 208,
+      "duration_pappy": [8, 12, 52]
+    },
+    {
+      "name": "Infectious Hepatitis",
+      "description": "Infectious canine hepatitis is a disease which affects the liver, eyes and lungs of a dog. The disease can develop very quickly and some individuals may die within hours of becoming unwell.",
+      "symptoms": "This may relate to the inflamed liver or other internal organs.Inflammation of the eyes resulting in a clouding of vision is a common complication.Spontaneous bleeding can arise due to the development of blood clotting problems.",
+      "duration_adult": 208,
+      "duration_pappy": [8, 12, 52]
+    },
+    {
+      "name": "Leptospirosis",
+      "description": "Leptospirosis is caused by bacteria that are spread via the urine of infected animals. It is a serious zoonotic disease, which means it can be spread to humans by contact with infected urine or a contaminated environment. The signs of disease are highly variable, and can affect a range of organs. The liver and/or kidneys are commonly affected. Other important syndromes can involve the lungs and an association with severe bleeding problems.There are different strains (known as serovars) that are responsible for the disease. Traditionally, a 2 strain (bivalent) vaccines was used to protect dogs. In recent years it has been recognised that a wider range of strains (known as serovars) that are responsible for cases in the UK, Ireland and mainland Europe. This has resulted in vaccines that cover a greater spectrum of serovars to broaden the protection that vaccination covers.",
+      "symptoms": "Severe bleeding which can involve the lungs is a very serious complication.Changes to urine output associated with kidney damage and failure.Infected dogs may show a range of signs that relate to severe liver damage.",
+      "duration_adult": 52,
+      "duration_pappy": [8, 12, 52]
+    },
+    {
+      "name": "Contagious Canine Cough",
+      "description": "Also known as Canine infectious tracheobronchitis, or more commonly known as “kennel cough”, it is a highly contagious disease of a dog's respiratory tract. Despite the name, the disease occurs wherever dogs are in close contact with each other, meaning that they might be at risk of getting infected in many different environments aside from boarding kennels.A range of different viruses and bacteria can cause coughing in dogs but the bacteria Bordetella bronchiseptica and parainfluenza virus are two important causes covered by vaccines for this disease.",
+      "symptoms": "This may be prove distressing and may lead to retching of froth and mucus. The cough can last several weeks.This tends to occur in more serious disease.Some individuals may become very unwell and develop pneumonia.",
+      "duration_adult": 52,
+      "duration_pappy": ["none", 12, 52]
+    },
+    {
+      "name": "Canine Parvovirus",
+      "description": "Canine parvovirus is a small, but extremely hardy virus that can survive in the environment for long periods of time - months or even a year or more.The disease first emerged as an epidemic in the 1970s, killing thousands of dogs before an effective vaccine became available. Although no longer present in epidemic proportions, parvovirus is still relatively common in unvaccinated dogs, and veterinary surgeons throughout the country regularly report outbreaks of the disease. The reason for this is because unvaccinated animals shed very large amounts of virus into the environment which then can infect other dogs for many months. Therefore, protecting your dog through vaccination is vitally important.",
+      "symptoms": "Clinical signs are usually observed 3-5 days after infection.The dog is likely to refuse food and water and repeatedly vomit on an empty stomach –  combined with increased fluid loss this can lead to very rapid dehydration.Affected puppies and dogs experience very severe diarrhoea due to profound damage to their gut and this is commonly associated with a great deal of blood. Fluid loss and entry of bacteria into the body with a reduced ability to fight infection commonly leads to rapid deterioration and death.",
+      "duration_adult": 208,
+      "duration_pappy": [8, 12, 52]
+    },
+    {
+      "name": "Rabies",
+      "description": "The UK has been free of rabies for many decades (with the exception of a small number of very rare cases of rabies in bats). The last case of classical rabies caught in the UK was in 1902.Nevertheless the control of this disease remains very important with an estimated 60,000 human deaths a year attributable to the disease and infected dog bites being by far the most important way in which the disease is acquired. Vaccination against rabies is a key requirement for international pet travel (please refer to the DEFRA website for further current information on pet travel overseas).",
+      "symptoms": "An unexpected change from normal behaviour can be one of the first signs noted. This includes abnormal and exaggerated responses.This relates to a gradual weakness and paralysis as the virus travels through the nervous system.The virus spreads to the salivary glands and is excreted in saliva so that it can be spread through biting others. The virus also paralyses the vocal cords and prevents swallowing so that the tone of the bark changes and excessive drooling occurs.",
+      "duration_adult": 156,
+      "duration_pappy": [52]
+    }
+  ]
+}

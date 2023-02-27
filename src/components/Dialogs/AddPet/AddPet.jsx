@@ -25,7 +25,7 @@ export default function AddpetDialog(props) {
   const [open, setOpen] = React.useState(false);
   const [select, setSelect] = React.useState();
   const [formData, setFormData] = useState();
-
+  console.log(formData);
   const handleValueChange = (newValue) => {
     setFormData({ ...formData, pet_breed: newValue });
   };
@@ -97,7 +97,7 @@ export default function AddpetDialog(props) {
                     onChange={(newValue) => {
                       setFormData({
                         ...formData,
-                        dob: newValue.$d,
+                        dob: moment(newValue.$d).format('YYYY-MM-DD'),
                       });
                     }}
                     renderInput={(params) => (

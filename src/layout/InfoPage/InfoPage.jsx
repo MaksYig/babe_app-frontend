@@ -14,6 +14,7 @@ import { useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import { getPetInfo } from '../../redux/actions/pet';
 import { useDispatch, useSelector } from 'react-redux';
+import { calculateAge } from '../../static/assets/UtilFunctions/util';
 
 function calAge(date) {
   const newDate = moment(date).format('YYYY-MM-DD');
@@ -65,6 +66,21 @@ const InfoPage = () => {
             padding: '10px',
           }}
         >
+          <Grid
+            item
+            xs={12}
+            md={12}
+            display={'flex'}
+            justifyContent={'space-between'}
+          >
+            <Typography component={'span'} variant='h5'>
+              {`Pet Card of ${petData?.pet_info?.name}`.toUpperCase()}
+            </Typography>
+            <Typography
+              variant='caption'
+              component={'span'}
+            >{`Date: ${moment().format('DD-MM-YYYY / HH:MM')}`}</Typography>
+          </Grid>
           {petData?.pet_info?.pet_image1 && (
             <Grid item xs={8} md={4}>
               <CardMedia

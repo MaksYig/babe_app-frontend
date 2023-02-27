@@ -30,6 +30,8 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import QrAccordion from '../../QrAccordion/QrAccordion';
+import MedAccordion from '../../MedAccordion/MedAccordion';
+import moment from 'moment';
 
 export default function AddpetDialog({ pet }) {
   const usersData = useSelector((state) => state.auth);
@@ -38,7 +40,7 @@ export default function AddpetDialog({ pet }) {
   const [select, setSelect] = useState();
   const [formData, setFormData] = useState({});
   const [pic, setPic] = useState();
-
+  console.log(pet);
   // Accordion details
   const [expanded, setExpanded] = React.useState(false);
 
@@ -188,7 +190,10 @@ export default function AddpetDialog({ pet }) {
                         views={['year', 'month', 'day']}
                         value={formData?.dob}
                         onChange={(newValue) => {
-                          setFormData({ ...formData, dob: newValue.$d });
+                          setFormData({
+                            ...formData,
+                            dob: moment(newValue.$d).format('YYYY-MM-DD'),
+                          });
                         }}
                         renderInput={(params) => (
                           <TextField
@@ -405,170 +410,13 @@ export default function AddpetDialog({ pet }) {
               </AccordionDetails>
             </Accordion>
             {/* Second accordion with medical information */}
-            <Accordion
-              expanded={expanded === 'panel2'}
-              onChange={handleChangeAcc('panel2')}
-            >
-              <AccordionSummary
-                expandIcon={<ExpandMoreIcon />}
-                aria-controls='panel1bh-content'
-                id='panel1bh-header'
-              >
-                <Typography
-                  sx={{ width: '70%', flexShrink: 0 }}
-                  variant='button'
-                >
-                  Medical Pet Information
-                </Typography>
-              </AccordionSummary>
-              <AccordionDetails>
-                <Grid container spacing={2}>
-                  <Grid item container spacing={3}>
-                    <Grid item xs={12} md={6}>
-                      <TextField
-                        autoFocus
-                        margin='dense'
-                        id='name'
-                        defaultValue={pet.name}
-                        name='name'
-                        label='Pet Name'
-                        type='text'
-                        fullWidth
-                        variant='standard'
-                        onChange={handleChange}
-                      />
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                      <TextField
-                        autoFocus
-                        margin='dense'
-                        id='name'
-                        defaultValue={pet.name}
-                        name='name'
-                        label='Something'
-                        type='text'
-                        fullWidth
-                        variant='standard'
-                        onChange={handleChange}
-                      />
-                    </Grid>
-                  </Grid>
-                  <Grid item container spacing={3}>
-                    <Grid item xs={12} md={6}>
-                      <TextField
-                        autoFocus
-                        margin='dense'
-                        id='chip_num'
-                        defaultValue={pet.chip_num}
-                        name='chip_num'
-                        label='Chip Number'
-                        type='text'
-                        fullWidth
-                        variant='standard'
-                        onChange={handleChange}
-                      />
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                      <DatePicker
-                        disableFuture
-                        label='Date of Birth'
-                        openTo='year'
-                        views={['year', 'month', 'day']}
-                        value={formData?.dob}
-                        onChange={(newValue) => {
-                          setFormData({ ...formData, dob: newValue });
-                        }}
-                        renderInput={(params) => (
-                          <TextField
-                            variant='standard'
-                            fullWidth
-                            margin='dense'
-                            {...params}
-                          />
-                        )}
-                      />
-                    </Grid>
-                  </Grid>
-                  <Grid item container spacing={3}>
-                    <Grid item xs={12} md={6}>
-                      <FormControl>
-                        <FormLabel id='pet_gender'>Pet Gender</FormLabel>
-                        <RadioGroup
-                          row
-                          type='radio'
-                          aria-labelledby='pet_gender'
-                          name='pet_gender'
-                          defaultChecked={pet.pet_gender}
-                          defaultValue={pet.pet_gender}
-                          value={formData?.pet_gender}
-                          onChange={(event) =>
-                            setFormData({
-                              ...formData,
-                              pet_gender: event.target.value,
-                            })
-                          }
-                        >
-                          <FormControlLabel
-                            value='female'
-                            control={<Radio />}
-                            label='Female'
-                          />
-                          <FormControlLabel
-                            value='male'
-                            control={<Radio />}
-                            label='Male'
-                          />
-                        </RadioGroup>
-                      </FormControl>
-                    </Grid>
-                    <Grid item xs={12} md={6}>
-                      <Autocomplete
-                        // value={!select && formData?.pet_beed}
-                        isOptionEqualToValue={(option, value) =>
-                          option.value === value.value
-                        }
-                        defaultValue={pet.pet_breed}
-                        onChange={(event, newValue) => {
-                          setFormData({ ...formData, pet_breed: newValue });
-                        }}
-                        inputValue={formData?.pet_beed}
-                        onInputChange={(event, newInputValue) => {
-                          setFormData({
-                            ...formData,
-                            pet_breed: newInputValue,
-                          });
-                        }}
-                        id='controllable-states-demo'
-                        options={dog_breed.map((breed) => breed.dog_breed)}
-                        renderInput={(params) => (
-                          <TextField
-                            {...params}
-                            margin='dense'
-                            id='pet_breed'
-                            name='pet_breed'
-                            label='Pet Breed'
-                            type='text'
-                            fullWidth
-                            variant='standard'
-                          />
-                        )}
-                      />
-                      <DogBreed onChangeValue={handleValueChange} />
-                    </Grid>
-                  </Grid>
-
-                  <Grid
-                    item
-                    sx={12}
-                    md={12}
-                    display='flex'
-                    justifyContent={'center'}
-                  >
-                    <Button onClick={handleSubmit}>UPDATE MEDICAL INFO</Button>
-                  </Grid>
-                </Grid>
-              </AccordionDetails>
-            </Accordion>
+            <MedAccordion
+              handleChangeAcc={handleChangeAcc}
+              expanded={expanded}
+              panel={'panel2'}
+              title='Pet medicine Information'
+              pet_med={pet.pet_med}
+            />
             <QrAccordion
               handleChangeAcc={handleChangeAcc}
               expanded={expanded}
